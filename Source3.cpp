@@ -482,6 +482,16 @@ void pW9() {
 */
 
 void pW10() {
+	int a, b;
+
+	std::cout << "Enter a first number: ";
+	std::cin >> a;
+	std::cout << "Enter a second number: ";
+	std::cin >> b;
+
+	int max = (a + b + std::abs(a - b)) / 2;
+
+	std::cout << max << " is the biggest";
 
 }
 
